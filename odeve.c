@@ -5,7 +5,7 @@ int main()
     scanf("%d", &number);
     if(number % 2 == 0)
         printf("even");
-    elseif(number % 2<=0)
+    else if(number % 2<0)
         printf("invalid");
     return 0;
 }
